@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Registration</title>
+    <style>
+        body {
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            background-image: url(img/12.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .container {
+            width: 42%;
+            height: 805px;
+            border-radius: 10px;
+            margin-bottom: 50px;
+        }
+
+        h2 {
+            color: rgb(229, 221, 221);
+            font-weight: bold;
+            padding-left: 272px;
+            font-size: 40px;
+        }
+
+        label {
+            color: rgb(228, 219, 219);
+            font-weight: 500;
+            font-size: 30px;
+            padding-right: 198px;
+        }
+
+        .container .input_field .input {
+            align-items: center;
+        }
+
+        .container .input_field .input {
+            display: flex;
+            flex-direction: column;
+            padding-left: 50px;
+        }
+
+        .container .input_field .input input {
+            width: 335px;
+            height: 40px;
+            margin: 10px;
+            border-radius: 3px;
+        }
+
+        #co_pass label {
+            padding-right: 100px;
+        }
+
+        #gender label {
+            padding-right: 243px;
+        }
+
+        #email label {
+            padding-right: 223px;
+        }
+
+        #pass label {
+            padding-right: 209px;
+        }
+
+        #register_butt input {
+            width: 435px;
+            height: 45px;
+            background-color: rgba(255, 168, 0, 1);
+            border: none;
+            border-radius: 8px;
+            margin-left: 240px;
+            margin-top: 30px;
+            font-size: 30px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        #register_butt button a {
+            color: black;
+        }
+
+        hr {
+            width: 240px;
+            margin-top: -14px;
+            margin-left: 274px;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Registration Form</h2>
+        <hr>
+        <div class="input_field">
+            <div class="input">
+                <label>First Name</label>
+                <input type="text" required>
+            </div>
+            <div class="input">
+                <label>Last Name</label>
+                <input type="text" required>
+            </div>
+            <div class="input" id="email">
+                <label>Email-Id</label>
+                <input type="email" required>
+            </div>
+            <div class="input">
+                <label>Phone No.</label>
+                <input type="number" required>
+            </div>
+            <div class="input" id="pass">
+                <label>Password</label>
+                <input type="password" required>
+            </div>
+            <div class="input" id="co_pass">
+                <label>Conform Password</label>
+                <input type="password" required>
+            </div>
+            <div class="input" id="gender">
+                <label>Gender</label>
+                <input type="text" required>
+            </div>
+            <div id="register_butt">
+                <a href="index.html"><input type="submit" value="Login"></a>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
